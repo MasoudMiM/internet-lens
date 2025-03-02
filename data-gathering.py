@@ -378,7 +378,7 @@ def gather_data(sources, keywords, search_limit, comment_limit, time_filter):
 
 if __name__ == "__main__":
     sources = [RedditSource(), LemmySource()]
-    keywords = ["government employee"]
+    keywords = ["keyword1"] # can include multiple keywords ["keyword1","keyword2","keyword3"]
     search_limit = 200
     comment_limit = 20
     time_filter = 'month'  # Options: 'hour', 'day', 'week', 'month', 'year', 'all'
