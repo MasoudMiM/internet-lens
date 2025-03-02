@@ -1,0 +1,19 @@
+name: data-gathering-nlp
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - praw
+  - requests
+  - nltk
+  - pandas
+  - textblob
+  - sumy
+  - transformers
+  - tqdm
+  - matplotlib
+  - seaborn
+  - wordcloud
+  - joypy
+  - python-dotenv
